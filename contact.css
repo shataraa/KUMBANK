@@ -101,9 +101,11 @@ img {
     text-align: center;
     font-size: 25px;
 }
-
+.bungkus{
+    display: flex;
+    flex-direction: column;
+}
 .list-link{
-    margin-top: 20px;
     padding: 10px;
     list-style: none;
 }
