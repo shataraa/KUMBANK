@@ -109,9 +109,10 @@ img {
 }
 .discord{
     background-color: #fff;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 200px;
+    border-radius: 10px;
+    height: 70px;
+    width: 700px;
+    font-family: myfont;
 }
 .discord a{
     display: flex;
@@ -119,6 +120,40 @@ img {
     text-decoration: none;
     color: black;
     font-size: 25px;
+    margin-top: 100px;
     padding: 2px;
     align-items: center;
+
+}
+
+.email {
+    background-color: #ffffff;
+    backdrop-filter: 10px;
+    border-radius: 10px;
+    height: 70px;
+    width: 700px;
+    margin-top: 10px;
+    font-family: myfont;
+}
+
+.email a{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    align-items: center;
+}
+
+/* .discord i{
+    margin-left: 300px;
+    font-size: 30px;
+    color: midnightblue;
+} */
+
+.email i{
+    margin-left: 320px;
+    color: rgb(66, 63, 102);
+    font-size: 30px;
 }

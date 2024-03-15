@@ -69,7 +69,6 @@ header a:hover{
     bottom: -6px;
     border-radius: 100px;
     background-color: rgb(159, 3, 4);
-
     border-radius: 1px;
     transform: scaleX(0);
     transition: transform .2s;
@@ -92,7 +91,7 @@ img {
     width: 300px;
 }
 .tentang p {
-    margin-top: 60px;
+    margin-top: 80px;
     padding: 10px;
     width: 950px;
     font-weight: bold;
