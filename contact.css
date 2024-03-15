@@ -116,7 +116,7 @@ img {
     align-items: center;
 }
 .discord{
-    background-color: #fff;
+    background-color: #ffffff85;
     border-radius: 20px;
     width: 370px;
     font-family: myfont;
@@ -133,8 +133,34 @@ img {
     width: 370px;
 }
 
+.discord:hover{
+    background-color: white;
+    transition: .3s;
+    width: 500px;
+}
+
+.discord a:hover{
+    background-color: white;
+    transition: .3s;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.email:hover{
+    background-color: white;
+    transition: .3s;
+    width: 500px;
+}
+
+.email a:hover{
+    background-color: white;
+    transition: .3s;
+    width: 500px;
+    border-radius: 20px;
+}
+
 .email{
-    background-color: #fff;
+    background-color: #ffffff85;
     border-radius: 20px;
     width: 370px;
     font-family: myfont;
@@ -150,3 +176,4 @@ img {
     align-items: center;
     width: 370px;
 }
+
