@@ -104,58 +104,49 @@ img {
 .bungkus{
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 .list-link{
     padding: 10px;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
 }
 .discord{
     background-color: #fff;
-    border-radius: 10px;
-    height: 70px;
-    width: 700px;
+    border-radius: 20px;
+    width: 370px;
     font-family: myfont;
 }
 .discord a{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-decoration: none;
     color: black;
     font-size: 25px;
-    margin-top: 100px;
-    padding: 2px;
+    font-weight: bold;
+    padding: 15px;
     align-items: center;
-
+    width: 370px;
 }
 
-.email {
-    background-color: #ffffff;
-    backdrop-filter: 10px;
-    border-radius: 10px;
-    height: 70px;
-    width: 700px;
-    margin-top: 10px;
+.email{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 370px;
     font-family: myfont;
 }
-
 .email a{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-decoration: none;
     color: black;
     font-size: 25px;
-    padding: 5px;
+    font-weight: bold;
+    padding: 15px;
     align-items: center;
-}
-
-/* .discord i{
-    margin-left: 300px;
-    font-size: 30px;
-    color: midnightblue;
-} */
-
-.email i{
-    margin-left: 320px;
-    color: rgb(66, 63, 102);
-    font-size: 30px;
+    width: 370px;
 }
