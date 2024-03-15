@@ -1,22 +1,10 @@
-@font-face {
-    font-family: Myfont;
-    src: url(fonts/RF\ Tone\ Light.otf);
-}
-@font-face {
-    font-family: after;
-    src: url(fonts/RF\ Tone\ Bold.otf);
-}
-
-@font-face {
-    font-family: kintil;
-    src: url(fonts/RF\ Tone\ Extrabold\ Italic.otf);
-}
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -34,7 +22,6 @@ body {
 
 header {
     position: fixed;
-    font-family: MyFont;
     top: 0;
     left: 0;
     width: 100%;
@@ -48,7 +35,6 @@ header {
 header a:hover{
     color: rgb(180, 1, 1);
     transition: 0.3s;
-    font-family: after;
 }
 
 
@@ -70,7 +56,6 @@ header a:hover{
     bottom: -6px;
     border-radius: 100px;
     background-color: rgb(159, 3, 4);
-
     border-radius: 1px;
     transform: scaleX(0);
     transition: transform .2s;
