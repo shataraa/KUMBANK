@@ -12,7 +12,6 @@
     src: url(fonts/RF\ Tone\ Extrabold\ Italic.otf);
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -100,4 +99,13 @@ img {
     color: rgb(159, 3, 4);
     text-align: center;
     font-size: 25px;
+}
+
+.input-pw {
+    position: relative;
+    font-size: 17;
+    width: 10px;
+    margin: 20px 0;
+    font-family: after;
+    color: rgb(255, 255, 255);
 }

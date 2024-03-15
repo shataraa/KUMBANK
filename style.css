@@ -1,15 +1,15 @@
 @font-face {
     font-family: Myfont;
-    src: url(RF\ Tone\ Light.otf);
+    src: url(fonts/RF\ Tone\ Light.otf);
 }
 @font-face {
     font-family: after;
-    src: url(RF\ Tone\ Bold.otf);
+    src: url(fonts/RF\ Tone\ Bold.otf);
 }
 
 @font-face {
     font-family: kintil;
-    src: url(RF\ Tone\ Extrabold\ Italic.otf);
+    src: url(fonts/RF\ Tone\ Extrabold\ Italic.otf);
 }
 
 
