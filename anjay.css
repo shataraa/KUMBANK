@@ -80,11 +80,23 @@ header a:hover{
     transform: scaleX(1); 
 }
 
-img {
-    width: 550px;
-    padding-bottom: 500px;
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 100px;
 }
-
+img {
+    width: 300px;
+}
 .tentang p {
-    
+    padding: 10px;
+    width: 950px;
+    font-weight: bold;
+    color: rgb(159, 3, 4);
+    text-align: center;
+    font-size: 25px;
 }
