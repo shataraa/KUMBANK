@@ -112,7 +112,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 150px;
+    height: 230px;
     align-items: center;
 }
 .discord{
@@ -176,4 +176,37 @@ img {
     align-items: center;
     width: 370px;
 }
+
+.ig:hover{
+    background-color: white;
+    transition: .3s;
+    width: 500px;
+}
+
+.ig a:hover{
+    background-color: white;
+    transition: .3s;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.ig{
+    background-color: #ffffff85;
+    border-radius: 20px;
+    width: 370px;
+    font-family: myfont;
+}
+.ig a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    align-items: center;
+    width: 370px;
+}
+
+
 
