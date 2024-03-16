@@ -514,16 +514,16 @@ header a:hover {
 }
 .carousel .card {
   scroll-snap-align: start;
-  height: 442px;
+  height: 450px;
   list-style: none;
-  background: #fff;
+  background: #ffffff;
   cursor: pointer;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   flex-direction: column;
-  border-radius: 8px;
+  border-radius: 50px;
 }
 .carousel .card .img {
-  background: #b3ff00;
+  background: #9f0304;
   height: 148px;
   width: 148px;
   border-radius: 50%;
@@ -537,12 +537,12 @@ header a:hover {
 }
 .carousel .card h2 {
   font-weight: 500;
-  font-size: 1.56rem;
+  font-size: 1.5rem;
   margin: 10px 0 5px;
 }
 .carousel .card span {
   color: #6a6d78;
-  font-size: 1.31rem;
+  font-size: 1.1rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -558,7 +558,7 @@ header a:hover {
 }
 
 .list-app{
-  padding: 2px;
+  padding: 5px;
 }
 .list-app p{
   text-align: center;
