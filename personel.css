@@ -561,13 +561,11 @@ header a:hover {
   padding: 2px;
 }
 .list-app p{
-  border: 1px solid red;
   text-align: center;
 }
 .img-icon{
   display: flex;
   justify-content: space-around;
-  border: 1px solid blue;
 }
 
 .img-icon li{
