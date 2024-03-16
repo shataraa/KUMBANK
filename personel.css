@@ -561,6 +561,7 @@ header a:hover {
   padding: 60px;
 }
 .list-app p{
+  margin-top: 15px;
   text-align: center;
   font-size: 20px;
 }
@@ -578,9 +579,10 @@ header a:hover {
 .img-icon li img{
   width: 40px;
   border-radius: 20px;
-  margin: 5px;
+  margin: 2px;
 }
 .img-icon li a img{
   width: 58px;
   border-radius: 20px;
+  margin: 2px;
 }
