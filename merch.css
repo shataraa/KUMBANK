@@ -70,14 +70,14 @@ header a:hover{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    position: relative;
+    top: -100px;
 }
 
 
 .logo {
   width: 300px;
   margin-bottom: 50px;
-
 }
 
 .card {
@@ -135,8 +135,10 @@ header a:hover{
 
 .card-divider {
   width: 100%;
+  margin-bottom: ;
   border: 1px solid var(--main-color);
   border-radius: 50px;
+  margin-top: -20px;
 }
 
 .card-footer {
@@ -175,7 +177,8 @@ header a:hover{
 }
 
 .card-img:hover {
-  transform: translateY(-3px);
+  transform: translateY(-10px);
+  transition: .5s;
 }
 
 .card-btn:hover {
@@ -500,4 +503,11 @@ header a:hover{
   to {
     transform: rotate(-1turn);
   }
+}
+
+.wrapper {
+  display: flex;
+  border: 1px solid blue;
+  width: 500px;
+  justify-content: space-between;
 }
