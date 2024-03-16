@@ -119,6 +119,21 @@ header a:hover{
   margin: auto;
 }
 
+.card-imag .img {
+  /* delete */
+   transform: scale(1);
+   position: relative;
+   box-sizing: border-box;
+   width: 150px;
+   height: 150px;
+   border-top-left-radius: 80px 50px;
+   border-top-right-radius: 80px 50px;
+   background-image: url('hoodie_front.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: auto;
+ }
+
 
 .card-title {
   font-size: 20px;
@@ -176,6 +191,11 @@ header a:hover{
 }
 
 .card-img:hover {
+  transform: translateY(-10px);
+  transition: .5s;
+}
+
+.card-imag:hover {
   transform: translateY(-10px);
   transition: .5s;
 }
