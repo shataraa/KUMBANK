@@ -514,7 +514,7 @@ header a:hover {
 }
 .carousel .card {
   scroll-snap-align: start;
-  height: 450px;
+  height: 600px;
   list-style: none;
   background: #ffffff;
   cursor: pointer;
@@ -558,7 +558,7 @@ header a:hover {
 }
 
 .list-app{
-  padding: 5px;
+  padding: 60px;
 }
 .list-app p{
   text-align: center;
@@ -574,5 +574,5 @@ header a:hover {
 .img-icon li img{
   width: 40px;
   border-radius: 20px;
-  margin: 3px;
+  margin: 5px;
 }
