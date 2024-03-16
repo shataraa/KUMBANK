@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <title>The KumbanK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="personel.css">
+    <title>Personel</title>
 </head>
 <body onload="hideLoader()">
     <header>
@@ -43,9 +44,48 @@
         </div>
     </div>
 
-    <div class="banner">
-        <img src="website.png" alt="">
-    </div>
+    <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <li class="card">
+            <div class="img"><img src="images/kumbank.jpeg" alt="img" draggable="false"></div>
+            <h2>Arxane</h2>
+            <span>opo iki?</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="images/kumbank.jpeg" alt="img" draggable="false"></div>
+            <h2>Yanto Kumbank</h2>
+            <span>Ketua Kultus</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="images/kumbank.jpeg" alt="img" draggable="false"></div>
+            <h2>Hann</h2>
+            <span>Tukang copas coding</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="images/kumbank.jpeg" alt="img" draggable="false"></div>
+            <h2>Adiba</h2>
+            <span>laba laba</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="images/kumbank.jpeg" alt="img" draggable="false"></div>
+            <h2>Jikta</h2>
+            <span>Bakul</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="images/kumbank.jpeg" alt="img" draggable="false"></div>
+            <h2>Joy</h2>
+            <span>Maskot</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="images/kumbank.jpeg" alt="img" draggable="false"></div>
+            <h2>GangGank</h2>
+            <span>opo meneh</span>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+
     <footer class="footer">
         &copy;<span id="year"> </span><span> The KumbanK</span>
     </footer>
@@ -57,6 +97,8 @@
         function hideLoader(){
             $('.page-loader').fadeOut('slow');
         }
+        
     </script>
+    <script src="kode.js"></script>
 </body>
 </html>
