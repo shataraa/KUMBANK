@@ -208,3 +208,42 @@ img {
     gap: 0.2rem;
   }
 
+.discord:not(:hover){
+    background-color: #ffffff85;
+    border-radius: 20px;
+    transition: .3s;
+    width: 370px;
+}
+
+.discord a:not(:hover){
+    background-color: #ffffff00;
+    border-radius: 20px;
+    transition: .3s;
+    width: 370px;
+}
+
+.ig:not(:hover){
+    background-color: #ffffff85;
+    border-radius: 20px;
+    transition: .3s;
+    width: 370px;
+}
+.ig a:not(:hover){
+    background-color: #ffffff00;
+    border-radius: 20px;
+    transition: .3s;
+    width: 370px;
+}
+.email a:not(:hover){
+    background-color: #ffffff00;
+    border-radius: 20px;
+    transition: .3s;
+    width: 370px;
+}
+
+.email:not(:hover){
+    background-color: #ffffff85;
+    border-radius: 20px;
+    transition: .3s;
+    width: 370px;
+}
