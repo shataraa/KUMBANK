@@ -247,3 +247,14 @@ img {
     transition: .3s;
     width: 370px;
 }
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 900px) {
+  .footer{
+    font-size: 15px;
+  }
+}

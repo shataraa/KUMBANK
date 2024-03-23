@@ -104,3 +104,29 @@ img {
     align-items: center;
     gap: 0.2rem;
   }
+
+@media screen and (max-width: 768px) {
+    .container img {
+        width: 50px;
+    }
+    .tentang p {
+        /* tinggal atur iki */
+        font-size: 12px;
+        width: fit-content;
+        padding: 10px 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .container img {
+        width: 400px;
+    }
+    .tentang p {
+        font-size: 25px;
+        width: fit-content;
+        padding: 10px 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+}

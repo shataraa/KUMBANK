@@ -379,3 +379,20 @@ header a:hover{
       transform: rotate(-1turn);
     }
   }
+  @media screen and (max-width: 768px) {
+  .banner img {
+      width: 600px;
+  }
+  .footer{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .banner img {
+      width: 1200px;
+  }
+  .footer{
+    font-size: 15px;
+  }
+}
