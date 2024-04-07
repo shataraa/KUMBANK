@@ -19,7 +19,6 @@
             <a href="personel.html">The PERSONNEL</a>
             <a href="merch.html">Project</a>
             <a href="contact.html">Contact</a>
-
         </nav>
     </header>
 
@@ -724,6 +723,16 @@
         }
         
     </script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("navi");
+        if (x.className === "navigation") {
+          x.className += " responsive";
+        } else {
+          x.className = "navigation";
+        }
+      }
+      </script>
     <script src="kode.js"></script>
 </body>
 </html>

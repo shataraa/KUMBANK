@@ -586,3 +586,36 @@ header a:hover {
   border-radius: 20px;
   margin: 2px;
 }
+
+@media screen and (max-width: 768px) {
+  .navigation a:not(:first-child) {display: none;}
+  .navigation a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+      width: 200px;
+  }
+  .navigation.responsive {
+      position: relative;
+      
+  }
+  .navigation.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.navigation.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+}
+@media screen and (max-width: 900px) {
+.footer{
+  font-size: 15px;
+}
+}
