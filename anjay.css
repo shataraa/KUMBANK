@@ -104,10 +104,11 @@ img {
     align-items: center;
     gap: 0.2rem;
   }
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 300px) {
     .container img {
-        width: 50px;
+        width: 200px;
+        display: flex;
+        align-items: center;
     }
     .tentang p {
         /* tinggal atur iki */
@@ -118,7 +119,22 @@ img {
         border-radius: 5px;
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 360px) {
+    .container img {
+        width: 300px;
+        display: flex;
+        align-items: center;
+    }
+    .tentang p {
+        /* tinggal atur iki */
+        font-size: 12px;
+        width: fit-content;
+        padding: 10px 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+}
+@media screen and (min-width: 800px) {
     .container img {
         width: 400px;
     }

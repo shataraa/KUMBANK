@@ -379,20 +379,27 @@ header a:hover{
       transform: rotate(-1turn);
     }
   }
-  @media screen and (min-width: 425px) {
+  @media screen and (min-width: 300px) {
+    .banner img {
+      width: 500px;
+      display: flex;
+      align-items: center;
+  }
+  }
+  @media screen and (min-width: 360px) {
   .banner img {
       width: 600px;
       display: flex;
       align-items: center;
   }
   .footer{
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 800px) {
   .banner img {
-      width: 700px;
+      width: 900px;
       display: flex;
       align-items: center;
   }
