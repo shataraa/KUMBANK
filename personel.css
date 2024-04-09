@@ -26,6 +26,7 @@ header {
   width: 100%;
   padding: 40px 100px;
   display: flex;
+  background-color: rgba(0, 0, 0, 0.199);
   justify-content: center;
   align-items: center;
   z-index: 99;
@@ -53,7 +54,6 @@ header a:hover {
   height: 4px;
   bottom: -6px;
   border-radius: 100px;
-  background-color: rgb(159, 3, 4);
   border-radius: 1px;
   transform: scaleX(0);
   transition: transform 0.2s;
@@ -619,3 +619,45 @@ header a:hover {
   margin: 2px;
 }
 
+@media screen and (max-width: 768px) {
+  .navigation a:not(:first-child) {display: none;}
+  .navigation a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+      width: 200px;
+  }
+  .navigation.responsive {
+      position: relative;
+      
+  }
+  .navigation.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.navigation.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+}
+@media screen and (max-width: 900px) {
+.footer{
+  font-size: 15px;
+}
+}
+
+.navigation a.active {
+  background-color: #04AA6D;
+  color: white;
+  display: none;
+}
+.icon{
+  display: none;
+  align-items: center;
+}

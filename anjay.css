@@ -25,7 +25,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 30px 50px;
+    background-color: rgba(0, 0, 0, 0.199);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +55,6 @@ header a:hover{
     height: 4px;
     bottom: -6px;
     border-radius: 100px;
-    background-color: rgb(159, 3, 4);
     border-radius: 1px;
     transform: scaleX(0);
     transition: transform .2s;
@@ -77,12 +77,9 @@ img {
     width: 300px;
 }
 .tentang p {
-    margin-top: 80px;
+    margin-top: 100px;
     padding: 20px 100px;
-    background-color: rgba(255, 255, 255, 0.548);
     border-radius: 20px;
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
     width: 950px;
     font-weight: bold;
     color: rgb(159, 3, 4);
@@ -127,7 +124,7 @@ img {
     }
     .tentang p {
         /* tinggal atur iki */
-        font-size: 12px;
+        font-size: 15px;
         width: fit-content;
         padding: 10px 20px;
         margin-top: 20px;
@@ -139,8 +136,8 @@ img {
         width: 400px;
     }
     .tentang p {
-        font-size: 25px;
-        width: fit-content;
+        font-size: 30px;
+        width: 950px;
         padding: 10px 20px;
         margin-top: 20px;
         border-radius: 5px;
